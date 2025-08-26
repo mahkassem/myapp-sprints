@@ -1,0 +1,6 @@
+<h2>Books List</h2>
+<ul>
+  @for(book of books(); track book.id) {
+    <li>{{ book.title }}</li>
+  }
+</ul>
